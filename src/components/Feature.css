@@ -1,0 +1,47 @@
+img {
+  width: 500px;
+  height: 375px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.no-image {
+  width: 500px;
+  height: 375px;
+  border-radius: 15px;
+  background-color: grey;
+  text-align: center;
+}
+
+.feature {
+  margin-top: 200px;
+}
+
+button {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: "Dancing Script";
+  border-radius: 15px;
+  background-color: bisque;
+  margin-bottom: 400px;
+}
+
+button:hover {
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #b284c4;
+  }
+  50% {
+    background-color: #8cd5ec;
+  }
+  90% {
+    background-color: #ec8cd6;
+  }
+  100% {
+    background-color: #b284c4;
+  }
+}
