@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
-import Month from "./components/Month";
 import data from "./data/Data";
+import Month from "./components/Month";
+import Feature from "./components/Feature";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           );
         })}
       </div>
+      <Feature />
     </div>
   );
 }
