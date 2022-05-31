@@ -6,7 +6,7 @@ const Feature = () => {
   const [picture, setPicture] = useState("");
 
   const handleClick = () => {
-    const index = Math.floor(Math.random() * (data.length - 0) + 0);
+    const index = Math.floor(Math.random() * data.length);
     let imgSrc = data[index].image;
 
     if (imgSrc !== "") {
